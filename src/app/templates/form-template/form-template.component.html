@@ -1,0 +1,15 @@
+<div>
+  <h2>Submit in classic HTML way</h2>
+  <form [action]="formTarget">
+    <input type="text" />
+    <button [ngClass]="btnClass" type="submit">{{btnText}}</button>
+  </form>
+</div>
+
+<div>
+    <h2>Submit in Angular way</h2>
+    <div>
+      <input type="text" [(ngModel)]="value" />
+      <button [ngClass]="btnClass" type="button" (click)="onSubmit()">{{btnText}}</button>
+    </div>
+</div>

@@ -1,16 +1,33 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule, Injectable, Type } from '@angular/core';
+
+import { ModalModule } from 'ngx-bootstrap/modal';
+import { TabsModule } from 'ngx-bootstrap/tabs';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import {
+   NgxDynamicComponentLoaderModule,
+   BaseComponent,
+   COMPONENT_LIST
+  } from 'ngx-dynamic-component-loader';
+import { TemplateModule } from './templates/template.module';
+import { DemoComponent } from './demo/demo.component';
+import { DataComponent } from './data/data.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DemoComponent,
+    DataComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    ModalModule.forRoot(),
+    TabsModule.forRoot(),
+    AppRoutingModule,
+    NgxDynamicComponentLoaderModule,
+    TemplateModule
   ],
   providers: [],
   bootstrap: [AppComponent]
