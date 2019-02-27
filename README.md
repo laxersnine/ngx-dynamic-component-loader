@@ -1,6 +1,6 @@
 # NgxDynamicComponentLoaderDemo
 
-Dynamically create components with preset customized template and fetched data.
+Dynamically create components with preset customized template and fetched data. See https://laxersnine.github.io/ngx-dynamic-component-loader/
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.3.
 
