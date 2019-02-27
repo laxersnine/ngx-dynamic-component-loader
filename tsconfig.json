@@ -19,11 +19,11 @@
       "dom"
     ],
     "paths": {
-      "ngx-dynamic-component-loader": [
-        "dist/ngx-dynamic-component-loader"
+      "@laxersnine/ngx-dynamic-component-loader": [
+        "dist/@laxersnine/ngx-dynamic-component-loader"
       ],
-      "ngx-dynamic-component-loader/*": [
-        "dist/ngx-dynamic-component-loader/*"
+      "@laxersnine/ngx-dynamic-component-loader/*": [
+        "dist/@laxersnine/ngx-dynamic-component-loader/*"
       ]
     }
   }

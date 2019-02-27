@@ -1,5 +1,20 @@
 {
-  "name": "ngx-dynamic-component-loader",
+  "name": "@laxersnine/ngx-dynamic-component-loader",
+  "author": {
+    "name": "Davis Yang",
+    "email": "laxersnine@gmail.com",
+    "url": "https://github.com/laxersnine"
+  },
+  "bugs": {
+    "email": "laxersnine@gmail.com",
+    "url": "https://github.com/laxersnine"
+  },
+  "description": "Load components from data in the runtime",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/laxersnine/ngx-dynamic-component-loader"
+  },
   "version": "0.0.1",
   "peerDependencies": {
     "@angular/common": "^7.2.0",

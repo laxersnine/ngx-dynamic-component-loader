@@ -6,11 +6,7 @@ import { TabsModule } from 'ngx-bootstrap/tabs';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import {
-   NgxDynamicComponentLoaderModule,
-   BaseComponent,
-   COMPONENT_LIST
-  } from 'ngx-dynamic-component-loader';
+import { NgxDynamicComponentLoaderModule } from '@laxersnine/ngx-dynamic-component-loader';
 import { TemplateModule } from './templates/template.module';
 import { DemoComponent } from './demo/demo.component';
 import { DataComponent } from './data/data.component';

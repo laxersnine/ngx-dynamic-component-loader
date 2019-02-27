@@ -1,5 +1,5 @@
 import { Component, OnInit, Inject } from '@angular/core';
-import { DynamicComponent, COMPONENT_LIST } from 'ngx-dynamic-component-loader';
+import { DynamicComponent, COMPONENT_LIST } from '@laxersnine/ngx-dynamic-component-loader';
 
 @Component({
   selector: 'app-demo',

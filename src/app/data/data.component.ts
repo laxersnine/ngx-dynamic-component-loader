@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Observable, of } from 'rxjs';
-import { DynamicComponent } from 'ngx-dynamic-component-loader';
+import { DynamicComponent } from '@laxersnine/ngx-dynamic-component-loader';
 
 @Component({
   selector: 'app-data',

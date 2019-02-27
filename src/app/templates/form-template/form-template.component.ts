@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { BaseComponent } from 'ngx-dynamic-component-loader';
+import { BaseComponent } from '@laxersnine/ngx-dynamic-component-loader';
 
 @Component({
   selector: 'app-form-template',

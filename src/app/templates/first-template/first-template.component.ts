@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { BaseComponent } from 'ngx-dynamic-component-loader';
+import { BaseComponent } from '@laxersnine/ngx-dynamic-component-loader';
 
 @Component({
   selector: 'app-first-template',

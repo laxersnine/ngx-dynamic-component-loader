@@ -1,6 +1,6 @@
 import { Component, OnInit, TemplateRef } from '@angular/core';
 import { BsModalService, BsModalRef } from 'ngx-bootstrap/modal';
-import { BaseComponent } from 'ngx-dynamic-component-loader';
+import { BaseComponent } from '@laxersnine/ngx-dynamic-component-loader';
 
 @Component({
   selector: 'app-modal-template',

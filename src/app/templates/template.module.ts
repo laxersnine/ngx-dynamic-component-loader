@@ -5,7 +5,7 @@ import { FormsModule } from '@angular/forms';
 import { FirstTemplateComponent } from './first-template/first-template.component';
 import { FormTemplateComponent } from './form-template/form-template.component';
 import { ModalTemplateComponent } from './modal-template/modal-template.component';
-import { BaseComponent, COMPONENT_LIST } from 'ngx-dynamic-component-loader';
+import { BaseComponent, COMPONENT_LIST } from '@laxersnine/ngx-dynamic-component-loader';
 
 const componentList: Type<BaseComponent>[] = [
   FirstTemplateComponent,
